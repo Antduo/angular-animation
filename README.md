@@ -125,3 +125,8 @@ export class AppComponent {
 - Query & Stagger
    - Query 用于父节点寻找子节点.
    - Stagger 指定有多个满足 Query 的元素, 每个动画之间有间隔.
+   
+ 
+`npm install`
+
+`ng serve --open`
