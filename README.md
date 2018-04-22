@@ -1,4 +1,4 @@
-> 1. angular过渡动画初体验
+> <h2>1. angular过渡动画初体验</h2>
 - 安装动画模块
 ```
 npm i  —save @angular/animations
@@ -50,7 +50,7 @@ export class AppComponent {
 一个简单的过渡效果就实现了
 ![简单过渡动画](https://upload-images.jianshu.io/upload_images/1482909-50ace711b61354af.gif?imageMogr2/auto-orient/strip)
 
-> 2. 缓动函数和关键帧
+> <h2>2. 缓动函数和关键帧</h2>
 - 缓动函数
 缓动函数: 指定动画效果在执行时的速度, 使其看起来更加真实.
 缓动函数速查表: http://easings.net/zh-cn
@@ -120,7 +120,7 @@ export class AppComponent {
 实现效果:
 ![关键帧动画](https://upload-images.jianshu.io/upload_images/1482909-0b3fde39c42069fe.gif?imageMogr2/auto-orient/strip)
 
-> 3. 路由动画 及 高阶动画函数 
+> <h2>3. 路由动画 及 高阶动画函数</h2> 
 - Group : 用于同时进行一组的动画变换
 - Query & Stagger
    - Query 用于父节点寻找子节点.
